@@ -25,7 +25,7 @@ body {
     text-align: center;
 }
 .biographyHeader {
-    background-color: #6cacaf;
+    background-color: rgb(218, 116, 27);
     color: #fffffff4;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
@@ -77,6 +77,7 @@ p
 }
 
 
+
 .imageposition {
     display: flex;                /* Enable Flexbox */
     justify-content: center;      /* Center horizontally */
@@ -89,6 +90,18 @@ p
     height: auto;                 /* Maintain aspect ratio */
 }
 
+.freeestimate{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    height: 300px;
+    background-image: url(9.jpg);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* background-attachment: fixed; */
+  
+}
 .video-container{
     display: flex;
     justify-content: center;
@@ -112,7 +125,7 @@ body {
 
 .headerColor{
     background-color: #fff;
-    color: #b6761c;
+    color: rgb(218, 116, 27);
     text-align: center;
     padding: 1rem 0;
 }
@@ -133,18 +146,7 @@ header p {
     font-style: italic;
 }
 
-.freeestimate{
-    width: 100%;
-    margin: 0 auto;
-    padding: 2rem 0;
-    height: 300px;
-    background-image: url(9.jpg);
-    background-size:cover;
-    /* background-repeat: no-repeat; */
-    background-position: center;
-    /* background-attachment: fixed; */
-  
-}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -169,11 +171,19 @@ ul {
 }
 
 footer {
-    background-color: #8fb7aa;
+    background-color: #e9ab78;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    background-image: url(10.png);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
 }
 
 footer p {
@@ -214,6 +224,6 @@ a:hover {
 }
 
 #expert{
-    color: #9f7234;
+    color: rgb(218, 116, 27);
     text-align: center;
 }
