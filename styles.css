@@ -86,7 +86,7 @@ p
 }
 
 .imageposition img {
-    max-width: 100%;              /* Ensure the image does not overflow the container */
+    max-width: 50%;              /* Ensure the image does not overflow the container */
     height: auto;                 /* Maintain aspect ratio */
 }
 
